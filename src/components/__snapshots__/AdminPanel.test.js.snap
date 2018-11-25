@@ -1,0 +1,2761 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AdminPanel-test hello world renderee 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <AdminPanel />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <form
+        action=""
+      >
+        <div
+          className="form-group"
+        >
+          <input
+            className="form-control"
+            id="bookNameInput"
+            name="bookName"
+            placeholder="book name"
+            type="text"
+          />
+        </div>
+        <div
+          className="form-group"
+          style={
+            Object {
+              "padding": "10px",
+            }
+          }
+        >
+          <input
+            className="form-control"
+            id="bookAuthorInput"
+            name="bookAuthor"
+            placeholder="book author"
+            type="text"
+          />
+        </div>
+        <div
+          className="form-group"
+          style={
+            Object {
+              "padding": "10px",
+            }
+          }
+        >
+          <textarea
+            className="form-control"
+            id="bookDescribtion"
+            name="bookDescribtion"
+            placeholder="book describtion"
+            type="text"
+          />
+        </div>
+        <div
+          className="form-group"
+          style={
+            Object {
+              "padding": "10px",
+            }
+          }
+        >
+          <input
+            className="form-check-input"
+            id="bookOnStock"
+            name="bookOnStock"
+            type="checkbox"
+          />
+          <label
+            className="form-check-label"
+            htmlFor="bookOnStock"
+          >
+             On Stock
+          </label>
+        </div>
+        <div
+          className="form-group"
+          style={
+            Object {
+              "padding": "10px",
+            }
+          }
+        >
+          <input
+            className="form-control"
+            id="bookImageInput"
+            name="bookImage"
+            placeholder="book image"
+            type="text"
+          />
+        </div>
+        <div
+          style={
+            Object {
+              "padding": "10px",
+            }
+          }
+        >
+          <button
+            className="btn btn-primary"
+            type="submit"
+          >
+            Dodaj
+          </button>
+        </div>
+      </form>,
+      "className": "adminPanel col-md-4",
+      "style": Object {
+        "padding": "10px",
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "action": "",
+        "children": Array [
+          <div
+            className="form-group"
+          >
+            <input
+              className="form-control"
+              id="bookNameInput"
+              name="bookName"
+              placeholder="book name"
+              type="text"
+            />
+          </div>,
+          <div
+            className="form-group"
+            style={
+              Object {
+                "padding": "10px",
+              }
+            }
+          >
+            <input
+              className="form-control"
+              id="bookAuthorInput"
+              name="bookAuthor"
+              placeholder="book author"
+              type="text"
+            />
+          </div>,
+          <div
+            className="form-group"
+            style={
+              Object {
+                "padding": "10px",
+              }
+            }
+          >
+            <textarea
+              className="form-control"
+              id="bookDescribtion"
+              name="bookDescribtion"
+              placeholder="book describtion"
+              type="text"
+            />
+          </div>,
+          <div
+            className="form-group"
+            style={
+              Object {
+                "padding": "10px",
+              }
+            }
+          >
+            <input
+              className="form-check-input"
+              id="bookOnStock"
+              name="bookOnStock"
+              type="checkbox"
+            />
+            <label
+              className="form-check-label"
+              htmlFor="bookOnStock"
+            >
+               On Stock
+            </label>
+          </div>,
+          <div
+            className="form-group"
+            style={
+              Object {
+                "padding": "10px",
+              }
+            }
+          >
+            <input
+              className="form-control"
+              id="bookImageInput"
+              name="bookImage"
+              placeholder="book image"
+              type="text"
+            />
+          </div>,
+          <div
+            style={
+              Object {
+                "padding": "10px",
+              }
+            }
+          >
+            <button
+              className="btn btn-primary"
+              type="submit"
+            >
+              Dodaj
+            </button>
+          </div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <input
+              className="form-control"
+              id="bookNameInput"
+              name="bookName"
+              placeholder="book name"
+              type="text"
+            />,
+            "className": "form-group",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "form-control",
+              "id": "bookNameInput",
+              "name": "bookName",
+              "placeholder": "book name",
+              "type": "text",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <input
+              className="form-control"
+              id="bookAuthorInput"
+              name="bookAuthor"
+              placeholder="book author"
+              type="text"
+            />,
+            "className": "form-group",
+            "style": Object {
+              "padding": "10px",
+            },
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "form-control",
+              "id": "bookAuthorInput",
+              "name": "bookAuthor",
+              "placeholder": "book author",
+              "type": "text",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <textarea
+              className="form-control"
+              id="bookDescribtion"
+              name="bookDescribtion"
+              placeholder="book describtion"
+              type="text"
+            />,
+            "className": "form-group",
+            "style": Object {
+              "padding": "10px",
+            },
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "form-control",
+              "id": "bookDescribtion",
+              "name": "bookDescribtion",
+              "placeholder": "book describtion",
+              "type": "text",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "textarea",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <input
+                className="form-check-input"
+                id="bookOnStock"
+                name="bookOnStock"
+                type="checkbox"
+              />,
+              <label
+                className="form-check-label"
+                htmlFor="bookOnStock"
+              >
+                 On Stock
+              </label>,
+            ],
+            "className": "form-group",
+            "style": Object {
+              "padding": "10px",
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "form-check-input",
+                "id": "bookOnStock",
+                "name": "bookOnStock",
+                "type": "checkbox",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": " On Stock",
+                "className": "form-check-label",
+                "htmlFor": "bookOnStock",
+              },
+              "ref": null,
+              "rendered": " On Stock",
+              "type": "label",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <input
+              className="form-control"
+              id="bookImageInput"
+              name="bookImage"
+              placeholder="book image"
+              type="text"
+            />,
+            "className": "form-group",
+            "style": Object {
+              "padding": "10px",
+            },
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "form-control",
+              "id": "bookImageInput",
+              "name": "bookImage",
+              "placeholder": "book image",
+              "type": "text",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <button
+              className="btn btn-primary"
+              type="submit"
+            >
+              Dodaj
+            </button>,
+            "style": Object {
+              "padding": "10px",
+            },
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Dodaj",
+              "className": "btn btn-primary",
+              "type": "submit",
+            },
+            "ref": null,
+            "rendered": "Dodaj",
+            "type": "button",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "form",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <form
+          action=""
+        >
+          <div
+            className="form-group"
+          >
+            <input
+              className="form-control"
+              id="bookNameInput"
+              name="bookName"
+              placeholder="book name"
+              type="text"
+            />
+          </div>
+          <div
+            className="form-group"
+            style={
+              Object {
+                "padding": "10px",
+              }
+            }
+          >
+            <input
+              className="form-control"
+              id="bookAuthorInput"
+              name="bookAuthor"
+              placeholder="book author"
+              type="text"
+            />
+          </div>
+          <div
+            className="form-group"
+            style={
+              Object {
+                "padding": "10px",
+              }
+            }
+          >
+            <textarea
+              className="form-control"
+              id="bookDescribtion"
+              name="bookDescribtion"
+              placeholder="book describtion"
+              type="text"
+            />
+          </div>
+          <div
+            className="form-group"
+            style={
+              Object {
+                "padding": "10px",
+              }
+            }
+          >
+            <input
+              className="form-check-input"
+              id="bookOnStock"
+              name="bookOnStock"
+              type="checkbox"
+            />
+            <label
+              className="form-check-label"
+              htmlFor="bookOnStock"
+            >
+               On Stock
+            </label>
+          </div>
+          <div
+            className="form-group"
+            style={
+              Object {
+                "padding": "10px",
+              }
+            }
+          >
+            <input
+              className="form-control"
+              id="bookImageInput"
+              name="bookImage"
+              placeholder="book image"
+              type="text"
+            />
+          </div>
+          <div
+            style={
+              Object {
+                "padding": "10px",
+              }
+            }
+          >
+            <button
+              className="btn btn-primary"
+              type="submit"
+            >
+              Dodaj
+            </button>
+          </div>
+        </form>,
+        "className": "adminPanel col-md-4",
+        "style": Object {
+          "padding": "10px",
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "action": "",
+          "children": Array [
+            <div
+              className="form-group"
+            >
+              <input
+                className="form-control"
+                id="bookNameInput"
+                name="bookName"
+                placeholder="book name"
+                type="text"
+              />
+            </div>,
+            <div
+              className="form-group"
+              style={
+                Object {
+                  "padding": "10px",
+                }
+              }
+            >
+              <input
+                className="form-control"
+                id="bookAuthorInput"
+                name="bookAuthor"
+                placeholder="book author"
+                type="text"
+              />
+            </div>,
+            <div
+              className="form-group"
+              style={
+                Object {
+                  "padding": "10px",
+                }
+              }
+            >
+              <textarea
+                className="form-control"
+                id="bookDescribtion"
+                name="bookDescribtion"
+                placeholder="book describtion"
+                type="text"
+              />
+            </div>,
+            <div
+              className="form-group"
+              style={
+                Object {
+                  "padding": "10px",
+                }
+              }
+            >
+              <input
+                className="form-check-input"
+                id="bookOnStock"
+                name="bookOnStock"
+                type="checkbox"
+              />
+              <label
+                className="form-check-label"
+                htmlFor="bookOnStock"
+              >
+                 On Stock
+              </label>
+            </div>,
+            <div
+              className="form-group"
+              style={
+                Object {
+                  "padding": "10px",
+                }
+              }
+            >
+              <input
+                className="form-control"
+                id="bookImageInput"
+                name="bookImage"
+                placeholder="book image"
+                type="text"
+              />
+            </div>,
+            <div
+              style={
+                Object {
+                  "padding": "10px",
+                }
+              }
+            >
+              <button
+                className="btn btn-primary"
+                type="submit"
+              >
+                Dodaj
+              </button>
+            </div>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <input
+                className="form-control"
+                id="bookNameInput"
+                name="bookName"
+                placeholder="book name"
+                type="text"
+              />,
+              "className": "form-group",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "form-control",
+                "id": "bookNameInput",
+                "name": "bookName",
+                "placeholder": "book name",
+                "type": "text",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <input
+                className="form-control"
+                id="bookAuthorInput"
+                name="bookAuthor"
+                placeholder="book author"
+                type="text"
+              />,
+              "className": "form-group",
+              "style": Object {
+                "padding": "10px",
+              },
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "form-control",
+                "id": "bookAuthorInput",
+                "name": "bookAuthor",
+                "placeholder": "book author",
+                "type": "text",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <textarea
+                className="form-control"
+                id="bookDescribtion"
+                name="bookDescribtion"
+                placeholder="book describtion"
+                type="text"
+              />,
+              "className": "form-group",
+              "style": Object {
+                "padding": "10px",
+              },
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "form-control",
+                "id": "bookDescribtion",
+                "name": "bookDescribtion",
+                "placeholder": "book describtion",
+                "type": "text",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "textarea",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <input
+                  className="form-check-input"
+                  id="bookOnStock"
+                  name="bookOnStock"
+                  type="checkbox"
+                />,
+                <label
+                  className="form-check-label"
+                  htmlFor="bookOnStock"
+                >
+                   On Stock
+                </label>,
+              ],
+              "className": "form-group",
+              "style": Object {
+                "padding": "10px",
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "form-check-input",
+                  "id": "bookOnStock",
+                  "name": "bookOnStock",
+                  "type": "checkbox",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": " On Stock",
+                  "className": "form-check-label",
+                  "htmlFor": "bookOnStock",
+                },
+                "ref": null,
+                "rendered": " On Stock",
+                "type": "label",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <input
+                className="form-control"
+                id="bookImageInput"
+                name="bookImage"
+                placeholder="book image"
+                type="text"
+              />,
+              "className": "form-group",
+              "style": Object {
+                "padding": "10px",
+              },
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "form-control",
+                "id": "bookImageInput",
+                "name": "bookImage",
+                "placeholder": "book image",
+                "type": "text",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <button
+                className="btn btn-primary"
+                type="submit"
+              >
+                Dodaj
+              </button>,
+              "style": Object {
+                "padding": "10px",
+              },
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Dodaj",
+                "className": "btn btn-primary",
+                "type": "submit",
+              },
+              "ref": null,
+              "rendered": "Dodaj",
+              "type": "button",
+            },
+            "type": "div",
+          },
+        ],
+        "type": "form",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`AdminPanel-test snapshot matches 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <AdminPanel />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <form
+        action=""
+      >
+        <div
+          className="form-group"
+        >
+          <input
+            className="form-control"
+            id="bookNameInput"
+            name="bookName"
+            placeholder="book name"
+            type="text"
+          />
+        </div>
+        <div
+          className="form-group"
+          style={
+            Object {
+              "padding": "10px",
+            }
+          }
+        >
+          <input
+            className="form-control"
+            id="bookAuthorInput"
+            name="bookAuthor"
+            placeholder="book author"
+            type="text"
+          />
+        </div>
+        <div
+          className="form-group"
+          style={
+            Object {
+              "padding": "10px",
+            }
+          }
+        >
+          <textarea
+            className="form-control"
+            id="bookDescribtion"
+            name="bookDescribtion"
+            placeholder="book describtion"
+            type="text"
+          />
+        </div>
+        <div
+          className="form-group"
+          style={
+            Object {
+              "padding": "10px",
+            }
+          }
+        >
+          <input
+            className="form-check-input"
+            id="bookOnStock"
+            name="bookOnStock"
+            type="checkbox"
+          />
+          <label
+            className="form-check-label"
+            htmlFor="bookOnStock"
+          >
+             On Stock
+          </label>
+        </div>
+        <div
+          className="form-group"
+          style={
+            Object {
+              "padding": "10px",
+            }
+          }
+        >
+          <input
+            className="form-control"
+            id="bookImageInput"
+            name="bookImage"
+            placeholder="book image"
+            type="text"
+          />
+        </div>
+        <div
+          style={
+            Object {
+              "padding": "10px",
+            }
+          }
+        >
+          <button
+            className="btn btn-primary"
+            type="submit"
+          >
+            Dodaj
+          </button>
+        </div>
+      </form>,
+      "className": "adminPanel col-md-4",
+      "style": Object {
+        "padding": "10px",
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "action": "",
+        "children": Array [
+          <div
+            className="form-group"
+          >
+            <input
+              className="form-control"
+              id="bookNameInput"
+              name="bookName"
+              placeholder="book name"
+              type="text"
+            />
+          </div>,
+          <div
+            className="form-group"
+            style={
+              Object {
+                "padding": "10px",
+              }
+            }
+          >
+            <input
+              className="form-control"
+              id="bookAuthorInput"
+              name="bookAuthor"
+              placeholder="book author"
+              type="text"
+            />
+          </div>,
+          <div
+            className="form-group"
+            style={
+              Object {
+                "padding": "10px",
+              }
+            }
+          >
+            <textarea
+              className="form-control"
+              id="bookDescribtion"
+              name="bookDescribtion"
+              placeholder="book describtion"
+              type="text"
+            />
+          </div>,
+          <div
+            className="form-group"
+            style={
+              Object {
+                "padding": "10px",
+              }
+            }
+          >
+            <input
+              className="form-check-input"
+              id="bookOnStock"
+              name="bookOnStock"
+              type="checkbox"
+            />
+            <label
+              className="form-check-label"
+              htmlFor="bookOnStock"
+            >
+               On Stock
+            </label>
+          </div>,
+          <div
+            className="form-group"
+            style={
+              Object {
+                "padding": "10px",
+              }
+            }
+          >
+            <input
+              className="form-control"
+              id="bookImageInput"
+              name="bookImage"
+              placeholder="book image"
+              type="text"
+            />
+          </div>,
+          <div
+            style={
+              Object {
+                "padding": "10px",
+              }
+            }
+          >
+            <button
+              className="btn btn-primary"
+              type="submit"
+            >
+              Dodaj
+            </button>
+          </div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <input
+              className="form-control"
+              id="bookNameInput"
+              name="bookName"
+              placeholder="book name"
+              type="text"
+            />,
+            "className": "form-group",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "form-control",
+              "id": "bookNameInput",
+              "name": "bookName",
+              "placeholder": "book name",
+              "type": "text",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <input
+              className="form-control"
+              id="bookAuthorInput"
+              name="bookAuthor"
+              placeholder="book author"
+              type="text"
+            />,
+            "className": "form-group",
+            "style": Object {
+              "padding": "10px",
+            },
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "form-control",
+              "id": "bookAuthorInput",
+              "name": "bookAuthor",
+              "placeholder": "book author",
+              "type": "text",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <textarea
+              className="form-control"
+              id="bookDescribtion"
+              name="bookDescribtion"
+              placeholder="book describtion"
+              type="text"
+            />,
+            "className": "form-group",
+            "style": Object {
+              "padding": "10px",
+            },
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "form-control",
+              "id": "bookDescribtion",
+              "name": "bookDescribtion",
+              "placeholder": "book describtion",
+              "type": "text",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "textarea",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <input
+                className="form-check-input"
+                id="bookOnStock"
+                name="bookOnStock"
+                type="checkbox"
+              />,
+              <label
+                className="form-check-label"
+                htmlFor="bookOnStock"
+              >
+                 On Stock
+              </label>,
+            ],
+            "className": "form-group",
+            "style": Object {
+              "padding": "10px",
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "form-check-input",
+                "id": "bookOnStock",
+                "name": "bookOnStock",
+                "type": "checkbox",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": " On Stock",
+                "className": "form-check-label",
+                "htmlFor": "bookOnStock",
+              },
+              "ref": null,
+              "rendered": " On Stock",
+              "type": "label",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <input
+              className="form-control"
+              id="bookImageInput"
+              name="bookImage"
+              placeholder="book image"
+              type="text"
+            />,
+            "className": "form-group",
+            "style": Object {
+              "padding": "10px",
+            },
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "form-control",
+              "id": "bookImageInput",
+              "name": "bookImage",
+              "placeholder": "book image",
+              "type": "text",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <button
+              className="btn btn-primary"
+              type="submit"
+            >
+              Dodaj
+            </button>,
+            "style": Object {
+              "padding": "10px",
+            },
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Dodaj",
+              "className": "btn btn-primary",
+              "type": "submit",
+            },
+            "ref": null,
+            "rendered": "Dodaj",
+            "type": "button",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "form",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <form
+          action=""
+        >
+          <div
+            className="form-group"
+          >
+            <input
+              className="form-control"
+              id="bookNameInput"
+              name="bookName"
+              placeholder="book name"
+              type="text"
+            />
+          </div>
+          <div
+            className="form-group"
+            style={
+              Object {
+                "padding": "10px",
+              }
+            }
+          >
+            <input
+              className="form-control"
+              id="bookAuthorInput"
+              name="bookAuthor"
+              placeholder="book author"
+              type="text"
+            />
+          </div>
+          <div
+            className="form-group"
+            style={
+              Object {
+                "padding": "10px",
+              }
+            }
+          >
+            <textarea
+              className="form-control"
+              id="bookDescribtion"
+              name="bookDescribtion"
+              placeholder="book describtion"
+              type="text"
+            />
+          </div>
+          <div
+            className="form-group"
+            style={
+              Object {
+                "padding": "10px",
+              }
+            }
+          >
+            <input
+              className="form-check-input"
+              id="bookOnStock"
+              name="bookOnStock"
+              type="checkbox"
+            />
+            <label
+              className="form-check-label"
+              htmlFor="bookOnStock"
+            >
+               On Stock
+            </label>
+          </div>
+          <div
+            className="form-group"
+            style={
+              Object {
+                "padding": "10px",
+              }
+            }
+          >
+            <input
+              className="form-control"
+              id="bookImageInput"
+              name="bookImage"
+              placeholder="book image"
+              type="text"
+            />
+          </div>
+          <div
+            style={
+              Object {
+                "padding": "10px",
+              }
+            }
+          >
+            <button
+              className="btn btn-primary"
+              type="submit"
+            >
+              Dodaj
+            </button>
+          </div>
+        </form>,
+        "className": "adminPanel col-md-4",
+        "style": Object {
+          "padding": "10px",
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "action": "",
+          "children": Array [
+            <div
+              className="form-group"
+            >
+              <input
+                className="form-control"
+                id="bookNameInput"
+                name="bookName"
+                placeholder="book name"
+                type="text"
+              />
+            </div>,
+            <div
+              className="form-group"
+              style={
+                Object {
+                  "padding": "10px",
+                }
+              }
+            >
+              <input
+                className="form-control"
+                id="bookAuthorInput"
+                name="bookAuthor"
+                placeholder="book author"
+                type="text"
+              />
+            </div>,
+            <div
+              className="form-group"
+              style={
+                Object {
+                  "padding": "10px",
+                }
+              }
+            >
+              <textarea
+                className="form-control"
+                id="bookDescribtion"
+                name="bookDescribtion"
+                placeholder="book describtion"
+                type="text"
+              />
+            </div>,
+            <div
+              className="form-group"
+              style={
+                Object {
+                  "padding": "10px",
+                }
+              }
+            >
+              <input
+                className="form-check-input"
+                id="bookOnStock"
+                name="bookOnStock"
+                type="checkbox"
+              />
+              <label
+                className="form-check-label"
+                htmlFor="bookOnStock"
+              >
+                 On Stock
+              </label>
+            </div>,
+            <div
+              className="form-group"
+              style={
+                Object {
+                  "padding": "10px",
+                }
+              }
+            >
+              <input
+                className="form-control"
+                id="bookImageInput"
+                name="bookImage"
+                placeholder="book image"
+                type="text"
+              />
+            </div>,
+            <div
+              style={
+                Object {
+                  "padding": "10px",
+                }
+              }
+            >
+              <button
+                className="btn btn-primary"
+                type="submit"
+              >
+                Dodaj
+              </button>
+            </div>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <input
+                className="form-control"
+                id="bookNameInput"
+                name="bookName"
+                placeholder="book name"
+                type="text"
+              />,
+              "className": "form-group",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "form-control",
+                "id": "bookNameInput",
+                "name": "bookName",
+                "placeholder": "book name",
+                "type": "text",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <input
+                className="form-control"
+                id="bookAuthorInput"
+                name="bookAuthor"
+                placeholder="book author"
+                type="text"
+              />,
+              "className": "form-group",
+              "style": Object {
+                "padding": "10px",
+              },
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "form-control",
+                "id": "bookAuthorInput",
+                "name": "bookAuthor",
+                "placeholder": "book author",
+                "type": "text",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <textarea
+                className="form-control"
+                id="bookDescribtion"
+                name="bookDescribtion"
+                placeholder="book describtion"
+                type="text"
+              />,
+              "className": "form-group",
+              "style": Object {
+                "padding": "10px",
+              },
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "form-control",
+                "id": "bookDescribtion",
+                "name": "bookDescribtion",
+                "placeholder": "book describtion",
+                "type": "text",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "textarea",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <input
+                  className="form-check-input"
+                  id="bookOnStock"
+                  name="bookOnStock"
+                  type="checkbox"
+                />,
+                <label
+                  className="form-check-label"
+                  htmlFor="bookOnStock"
+                >
+                   On Stock
+                </label>,
+              ],
+              "className": "form-group",
+              "style": Object {
+                "padding": "10px",
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "form-check-input",
+                  "id": "bookOnStock",
+                  "name": "bookOnStock",
+                  "type": "checkbox",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": " On Stock",
+                  "className": "form-check-label",
+                  "htmlFor": "bookOnStock",
+                },
+                "ref": null,
+                "rendered": " On Stock",
+                "type": "label",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <input
+                className="form-control"
+                id="bookImageInput"
+                name="bookImage"
+                placeholder="book image"
+                type="text"
+              />,
+              "className": "form-group",
+              "style": Object {
+                "padding": "10px",
+              },
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "form-control",
+                "id": "bookImageInput",
+                "name": "bookImage",
+                "placeholder": "book image",
+                "type": "text",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <button
+                className="btn btn-primary"
+                type="submit"
+              >
+                Dodaj
+              </button>,
+              "style": Object {
+                "padding": "10px",
+              },
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Dodaj",
+                "className": "btn btn-primary",
+                "type": "submit",
+              },
+              "ref": null,
+              "rendered": "Dodaj",
+              "type": "button",
+            },
+            "type": "div",
+          },
+        ],
+        "type": "form",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`AdminPanel-test snapshots matches 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <AdminPanel />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <form
+        action=""
+      >
+        <div
+          className="form-group"
+        >
+          <input
+            className="form-control"
+            id="bookNameInput"
+            name="bookName"
+            placeholder="book name"
+            type="text"
+          />
+        </div>
+        <div
+          className="form-group"
+          style={
+            Object {
+              "padding": "10px",
+            }
+          }
+        >
+          <input
+            className="form-control"
+            id="bookAuthorInput"
+            name="bookAuthor"
+            placeholder="book author"
+            type="text"
+          />
+        </div>
+        <div
+          className="form-group"
+          style={
+            Object {
+              "padding": "10px",
+            }
+          }
+        >
+          <textarea
+            className="form-control"
+            id="bookDescribtion"
+            name="bookDescribtion"
+            placeholder="book describtion"
+            type="text"
+          />
+        </div>
+        <div
+          className="form-group"
+          style={
+            Object {
+              "padding": "10px",
+            }
+          }
+        >
+          <input
+            className="form-check-input"
+            id="bookOnStock"
+            name="bookOnStock"
+            type="checkbox"
+          />
+          <label
+            className="form-check-label"
+            htmlFor="bookOnStock"
+          >
+             On Stock
+          </label>
+        </div>
+        <div
+          className="form-group"
+          style={
+            Object {
+              "padding": "10px",
+            }
+          }
+        >
+          <input
+            className="form-control"
+            id="bookImageInput"
+            name="bookImage"
+            placeholder="book image"
+            type="text"
+          />
+        </div>
+        <div
+          style={
+            Object {
+              "padding": "10px",
+            }
+          }
+        >
+          <button
+            className="btn btn-primary"
+            type="submit"
+          >
+            Dodaj
+          </button>
+        </div>
+      </form>,
+      "className": "adminPanel col-md-4",
+      "style": Object {
+        "padding": "10px",
+      },
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "action": "",
+        "children": Array [
+          <div
+            className="form-group"
+          >
+            <input
+              className="form-control"
+              id="bookNameInput"
+              name="bookName"
+              placeholder="book name"
+              type="text"
+            />
+          </div>,
+          <div
+            className="form-group"
+            style={
+              Object {
+                "padding": "10px",
+              }
+            }
+          >
+            <input
+              className="form-control"
+              id="bookAuthorInput"
+              name="bookAuthor"
+              placeholder="book author"
+              type="text"
+            />
+          </div>,
+          <div
+            className="form-group"
+            style={
+              Object {
+                "padding": "10px",
+              }
+            }
+          >
+            <textarea
+              className="form-control"
+              id="bookDescribtion"
+              name="bookDescribtion"
+              placeholder="book describtion"
+              type="text"
+            />
+          </div>,
+          <div
+            className="form-group"
+            style={
+              Object {
+                "padding": "10px",
+              }
+            }
+          >
+            <input
+              className="form-check-input"
+              id="bookOnStock"
+              name="bookOnStock"
+              type="checkbox"
+            />
+            <label
+              className="form-check-label"
+              htmlFor="bookOnStock"
+            >
+               On Stock
+            </label>
+          </div>,
+          <div
+            className="form-group"
+            style={
+              Object {
+                "padding": "10px",
+              }
+            }
+          >
+            <input
+              className="form-control"
+              id="bookImageInput"
+              name="bookImage"
+              placeholder="book image"
+              type="text"
+            />
+          </div>,
+          <div
+            style={
+              Object {
+                "padding": "10px",
+              }
+            }
+          >
+            <button
+              className="btn btn-primary"
+              type="submit"
+            >
+              Dodaj
+            </button>
+          </div>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <input
+              className="form-control"
+              id="bookNameInput"
+              name="bookName"
+              placeholder="book name"
+              type="text"
+            />,
+            "className": "form-group",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "form-control",
+              "id": "bookNameInput",
+              "name": "bookName",
+              "placeholder": "book name",
+              "type": "text",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <input
+              className="form-control"
+              id="bookAuthorInput"
+              name="bookAuthor"
+              placeholder="book author"
+              type="text"
+            />,
+            "className": "form-group",
+            "style": Object {
+              "padding": "10px",
+            },
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "form-control",
+              "id": "bookAuthorInput",
+              "name": "bookAuthor",
+              "placeholder": "book author",
+              "type": "text",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <textarea
+              className="form-control"
+              id="bookDescribtion"
+              name="bookDescribtion"
+              placeholder="book describtion"
+              type="text"
+            />,
+            "className": "form-group",
+            "style": Object {
+              "padding": "10px",
+            },
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "form-control",
+              "id": "bookDescribtion",
+              "name": "bookDescribtion",
+              "placeholder": "book describtion",
+              "type": "text",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "textarea",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <input
+                className="form-check-input"
+                id="bookOnStock"
+                name="bookOnStock"
+                type="checkbox"
+              />,
+              <label
+                className="form-check-label"
+                htmlFor="bookOnStock"
+              >
+                 On Stock
+              </label>,
+            ],
+            "className": "form-group",
+            "style": Object {
+              "padding": "10px",
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "form-check-input",
+                "id": "bookOnStock",
+                "name": "bookOnStock",
+                "type": "checkbox",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": " On Stock",
+                "className": "form-check-label",
+                "htmlFor": "bookOnStock",
+              },
+              "ref": null,
+              "rendered": " On Stock",
+              "type": "label",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <input
+              className="form-control"
+              id="bookImageInput"
+              name="bookImage"
+              placeholder="book image"
+              type="text"
+            />,
+            "className": "form-group",
+            "style": Object {
+              "padding": "10px",
+            },
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "form-control",
+              "id": "bookImageInput",
+              "name": "bookImage",
+              "placeholder": "book image",
+              "type": "text",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <button
+              className="btn btn-primary"
+              type="submit"
+            >
+              Dodaj
+            </button>,
+            "style": Object {
+              "padding": "10px",
+            },
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Dodaj",
+              "className": "btn btn-primary",
+              "type": "submit",
+            },
+            "ref": null,
+            "rendered": "Dodaj",
+            "type": "button",
+          },
+          "type": "div",
+        },
+      ],
+      "type": "form",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <form
+          action=""
+        >
+          <div
+            className="form-group"
+          >
+            <input
+              className="form-control"
+              id="bookNameInput"
+              name="bookName"
+              placeholder="book name"
+              type="text"
+            />
+          </div>
+          <div
+            className="form-group"
+            style={
+              Object {
+                "padding": "10px",
+              }
+            }
+          >
+            <input
+              className="form-control"
+              id="bookAuthorInput"
+              name="bookAuthor"
+              placeholder="book author"
+              type="text"
+            />
+          </div>
+          <div
+            className="form-group"
+            style={
+              Object {
+                "padding": "10px",
+              }
+            }
+          >
+            <textarea
+              className="form-control"
+              id="bookDescribtion"
+              name="bookDescribtion"
+              placeholder="book describtion"
+              type="text"
+            />
+          </div>
+          <div
+            className="form-group"
+            style={
+              Object {
+                "padding": "10px",
+              }
+            }
+          >
+            <input
+              className="form-check-input"
+              id="bookOnStock"
+              name="bookOnStock"
+              type="checkbox"
+            />
+            <label
+              className="form-check-label"
+              htmlFor="bookOnStock"
+            >
+               On Stock
+            </label>
+          </div>
+          <div
+            className="form-group"
+            style={
+              Object {
+                "padding": "10px",
+              }
+            }
+          >
+            <input
+              className="form-control"
+              id="bookImageInput"
+              name="bookImage"
+              placeholder="book image"
+              type="text"
+            />
+          </div>
+          <div
+            style={
+              Object {
+                "padding": "10px",
+              }
+            }
+          >
+            <button
+              className="btn btn-primary"
+              type="submit"
+            >
+              Dodaj
+            </button>
+          </div>
+        </form>,
+        "className": "adminPanel col-md-4",
+        "style": Object {
+          "padding": "10px",
+        },
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "action": "",
+          "children": Array [
+            <div
+              className="form-group"
+            >
+              <input
+                className="form-control"
+                id="bookNameInput"
+                name="bookName"
+                placeholder="book name"
+                type="text"
+              />
+            </div>,
+            <div
+              className="form-group"
+              style={
+                Object {
+                  "padding": "10px",
+                }
+              }
+            >
+              <input
+                className="form-control"
+                id="bookAuthorInput"
+                name="bookAuthor"
+                placeholder="book author"
+                type="text"
+              />
+            </div>,
+            <div
+              className="form-group"
+              style={
+                Object {
+                  "padding": "10px",
+                }
+              }
+            >
+              <textarea
+                className="form-control"
+                id="bookDescribtion"
+                name="bookDescribtion"
+                placeholder="book describtion"
+                type="text"
+              />
+            </div>,
+            <div
+              className="form-group"
+              style={
+                Object {
+                  "padding": "10px",
+                }
+              }
+            >
+              <input
+                className="form-check-input"
+                id="bookOnStock"
+                name="bookOnStock"
+                type="checkbox"
+              />
+              <label
+                className="form-check-label"
+                htmlFor="bookOnStock"
+              >
+                 On Stock
+              </label>
+            </div>,
+            <div
+              className="form-group"
+              style={
+                Object {
+                  "padding": "10px",
+                }
+              }
+            >
+              <input
+                className="form-control"
+                id="bookImageInput"
+                name="bookImage"
+                placeholder="book image"
+                type="text"
+              />
+            </div>,
+            <div
+              style={
+                Object {
+                  "padding": "10px",
+                }
+              }
+            >
+              <button
+                className="btn btn-primary"
+                type="submit"
+              >
+                Dodaj
+              </button>
+            </div>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <input
+                className="form-control"
+                id="bookNameInput"
+                name="bookName"
+                placeholder="book name"
+                type="text"
+              />,
+              "className": "form-group",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "form-control",
+                "id": "bookNameInput",
+                "name": "bookName",
+                "placeholder": "book name",
+                "type": "text",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <input
+                className="form-control"
+                id="bookAuthorInput"
+                name="bookAuthor"
+                placeholder="book author"
+                type="text"
+              />,
+              "className": "form-group",
+              "style": Object {
+                "padding": "10px",
+              },
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "form-control",
+                "id": "bookAuthorInput",
+                "name": "bookAuthor",
+                "placeholder": "book author",
+                "type": "text",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <textarea
+                className="form-control"
+                id="bookDescribtion"
+                name="bookDescribtion"
+                placeholder="book describtion"
+                type="text"
+              />,
+              "className": "form-group",
+              "style": Object {
+                "padding": "10px",
+              },
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "form-control",
+                "id": "bookDescribtion",
+                "name": "bookDescribtion",
+                "placeholder": "book describtion",
+                "type": "text",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "textarea",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <input
+                  className="form-check-input"
+                  id="bookOnStock"
+                  name="bookOnStock"
+                  type="checkbox"
+                />,
+                <label
+                  className="form-check-label"
+                  htmlFor="bookOnStock"
+                >
+                   On Stock
+                </label>,
+              ],
+              "className": "form-group",
+              "style": Object {
+                "padding": "10px",
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "form-check-input",
+                  "id": "bookOnStock",
+                  "name": "bookOnStock",
+                  "type": "checkbox",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "input",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": " On Stock",
+                  "className": "form-check-label",
+                  "htmlFor": "bookOnStock",
+                },
+                "ref": null,
+                "rendered": " On Stock",
+                "type": "label",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <input
+                className="form-control"
+                id="bookImageInput"
+                name="bookImage"
+                placeholder="book image"
+                type="text"
+              />,
+              "className": "form-group",
+              "style": Object {
+                "padding": "10px",
+              },
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "form-control",
+                "id": "bookImageInput",
+                "name": "bookImage",
+                "placeholder": "book image",
+                "type": "text",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <button
+                className="btn btn-primary"
+                type="submit"
+              >
+                Dodaj
+              </button>,
+              "style": Object {
+                "padding": "10px",
+              },
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Dodaj",
+                "className": "btn btn-primary",
+                "type": "submit",
+              },
+              "ref": null,
+              "rendered": "Dodaj",
+              "type": "button",
+            },
+            "type": "div",
+          },
+        ],
+        "type": "form",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
